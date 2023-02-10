@@ -30,7 +30,7 @@ O projeto da casa de câmbio é uma aplicação que funciona buscando a taxa de 
 
 Basta inserir a sigla da moeda desejada (geralmente composta de 3 caracteres) e a pesquisa retornará o resultado das taxas convertidas.
 
-O endpoint da API utilizada para as taxas é a <a href="https://exchangerate.host/#/">exchangerate</a>, que é um serviço gratuito simples e leve para taxas de câmbio atuais.
+O endpoint da API utilizada para as taxas é o <a href="https://exchangerate.host/#/">exchangerate</a>, que é um serviço gratuito simples e leve para taxas de câmbio atuais.
 </div>
 
 <br>
