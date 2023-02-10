@@ -1,0 +1,27 @@
+{
+  "name": "currency_exchange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathlaza/Currency_Exchange.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathlaza/Currency_Exchange/issues"
+  },
+  "homepage": "https://github.com/mathlaza/Currency_Exchange#readme",
+  "dependencies": {
+    "vite": "^4.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
