@@ -1,6 +1,11 @@
 {
   "compilerOptions": {
-    "target": "ES2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "target": "ES2016",
+    "lib": [
+      "ES2016",
+      "DOM",
+      "ES2017.Object"
+    ],                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
     "module": "ES6",
     "moduleResolution": "node",                                /* Specify what module code is generated. */
     "rootDir": "./src",                                  /* Specify the root folder within your source files. */                             /* Specify a file that bundles all outputs into one JavaScript file. If 'declaration' is true, also designates a file that bundles all .d.ts output. */
