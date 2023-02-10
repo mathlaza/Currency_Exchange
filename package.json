@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/mathlaza/Currency_Exchange#readme",
   "dependencies": {
+    "bootstrap-icons": "^1.10.3",
     "sweetalert2": "^11.7.1",
     "vite": "^4.1.1"
   },

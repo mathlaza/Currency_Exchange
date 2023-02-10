@@ -1,19 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Currency Exchange</title>
+  <link rel="stylesheet" href="index.css">
 </head>
-<body>
-  <h1>Casa de Câmbio</h1>
 
+<body>
+  <h1>Casa de <span id="cambio">Câmbio</span></h1>
   <label for="coin-input">
-    Digite a moeda:
-    <input id="coin-input">
+    <p id="digite-moeda">Digite a moeda:</p>
+    <div>
+      <input placeholder="USD" id="coin-input">
+      <button type="button" id="btn-search">Pesquisar</button>
+    </div>
   </label>
-  <button type="button" id="btn-search">Pesquisar</button>
+
   <section>
     <h2 id="title-coin"></h2>
     <ul id="coins"></ul>
@@ -21,4 +26,5 @@
 
   <script src="./dist/main.js" type="module"></script>
 </body>
+
 </html>

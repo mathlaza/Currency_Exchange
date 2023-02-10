@@ -1,0 +1,144 @@
+body {
+  background-color: #282C33;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 79px;
+  color: #FFFFFF;
+  margin-top: 0;
+  height: 40px;
+}
+
+#cambio {
+  color: #95EBA8;
+}
+
+label {
+  margin: 15px;
+}
+
+div {
+  display: flex;
+}
+
+#digite-moeda {
+  margin-top: 10px;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 16px;
+
+  color: #FFFFFF;
+}
+
+input {
+  width: 150px;
+  margin-right: 20px;
+
+  background: rgba(133, 22, 22, 0.1);
+  border-radius: 10px;
+
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 26px;
+
+  color: #dfdfdf;
+}
+
+input:focus {
+  outline: none !important;
+  border: 2px solid rgb(220, 178, 38);
+  box-shadow: 0 0 10px #719ECE;
+}
+
+button {
+  width: 130px;
+  height: 37px;
+  /* box-sizing: border-box; */
+  cursor: pointer;
+
+  background: #96EB95;
+  border: 1px solid #96EB95;
+  border-radius: 10px;
+
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+
+  color: #373737;
+}
+
+button:hover {
+  background-color: #b2e9b2;
+  box-shadow: 0 0 10px #719ECE;
+  color: #262626;
+}
+
+button:active {
+  background-color: #49d047;
+  box-shadow: rgba(255, 255, 255, 0.1);
+  transform: translateY(4px);
+}
+
+section {
+  width: 900px;
+  border: solid 1px rgba(255, 255, 255, 0.06);
+
+  background: rgba(255, 255, 255, 0.06);
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+#title-coin {
+  text-align: center;
+  font-family: 'Fira Code';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 31px;
+  color: #FFFFFF;
+}
+
+ul {
+  width: 900px;
+  padding: 0;
+  margin-bottom: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+li {
+  width: 150px;
+  height: 40px;
+  border: solid 1px rgba(255, 255, 255, 0.06);
+  border-radius: 5px;
+  margin: 5px;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#coin-letters {
+  color: #FFFFFF;
+}
+
+#coin-value {
+  color: rgb(220, 178, 38);
+}
